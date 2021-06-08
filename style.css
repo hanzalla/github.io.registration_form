@@ -72,3 +72,9 @@ form button{
     color:#000;
 
 }
+#form1{
+    margin-left: -450px ;
+}
+#form2{
+    margin-left: 450px;
+}
