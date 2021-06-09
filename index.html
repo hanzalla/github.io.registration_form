@@ -15,8 +15,8 @@
     <div class="container">
         <form action="#" id="form1">
             <h1>create account</h1>
-            <input type="text" name="F-name" placeholder="First Name" required>
-            <input type="text" name="l-name" placeholder="Last Name" required>
+            <input type="text" name="F-name" placeholder="First Name">
+            <input type="text" name="l-name" placeholder="Last Name">
             <input type="date" required>
             <div class="btn-box">
                 <button type="button" id="next2">next</button>
@@ -26,9 +26,9 @@
         <form action="#" id="form3">
             <h1>Sign Up</h1>
 
-            <input type="email" name="email" placeholder="example@example.com" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="password" placeholder="confirm password" required>
+            <input type="email" name="email" placeholder="example@example.com">
+            <input type="password" name="password" placeholder="Password">
+            <input type="password" placeholder="confirm password">
             <div class="btn-box">
                 <button type="button" id="back2">Back</button>
                 <button type="submit">Submit</button>
@@ -37,10 +37,9 @@
         </form>
         <form action="#" id="form2">
             <h1>Contact info</h1>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="+92xx-xxxxxxx"
-                required>
-            <input type="url" name="link" placeholder="github profile url" required>
-            <input type="url" name="link" placeholder="facebook url" required>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="+92xx-xxxxxxx">
+            <input type="url" name="link" placeholder="github profile url">
+            <input type="url" name="link" placeholder="facebook url">
             <!-- <input type="date" required> -->
 
             <div class="btn-box">
@@ -49,6 +48,12 @@
             </div>
 
         </form>
+        <div class="step-row">
+            <div id="progress"></div>
+            <div class="step-col"><small>step 1</small></div>
+            <div class="step-col"><small>step 2</small></div>
+            <div class="step-col"><small>step 3</small></div>
+        </div>
 
     </div>
     <script src="javascript.js"></script>
