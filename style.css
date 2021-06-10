@@ -12,7 +12,7 @@ body{
 }
 .container{
     width: 360px;
-    height: 450px;
+    height: 420px;
     margin: 8% auto;
     background: #fff;
     border-radius: 5px;
@@ -101,7 +101,7 @@ form button{
     
 }
 #progress{
-    width: 100px;
+    width: 120px;
     height: 100%;
     position: absolute;
     background:linear-gradient(to right, #E6E49F,#E3E7D3) ;

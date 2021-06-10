@@ -12,12 +12,13 @@
 
 <body>
     <div class="navbar"></div>
-    <div class="container">
-        <form action="#" id="form1">
+    <div class="container" id="forms">
+        <form action="#" id="form1" class="form-control ">
             <h1>create account</h1>
-            <input type="text" name="F-name" placeholder="First Name">
-            <input type="text" name="l-name" placeholder="Last Name">
+            <input type="text" name="F-name" placeholder="First Name" id="fname">
+            <input type="text" name="l-name" placeholder="Last Name" id="lname">
             <input type="date" required>
+
             <div class="btn-box">
                 <button type="button" id="next2">next</button>
             </div>
@@ -29,6 +30,7 @@
             <input type="email" name="email" placeholder="example@example.com">
             <input type="password" name="password" placeholder="Password">
             <input type="password" placeholder="confirm password">
+
             <div class="btn-box">
                 <button type="button" id="back2">Back</button>
                 <button type="submit">Submit</button>
